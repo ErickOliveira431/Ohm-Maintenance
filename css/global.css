@@ -1,0 +1,46 @@
+/* reset serve para deixa todos os elemntos resetados */
+*{
+  border: 0;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+/* root */
+/* o root diz que pode ser acessado de qualque lgar feito para fazer as variaveis */ 
+/* sempre coloque dois -- antes para chamar mais facil */
+/* pegue do figma */
+
+:root{
+    /* primary */
+    --color-brand: #003B6F;
+    /* secundary */
+    --color-forengroud:#F5B700;
+    /* cards */
+    --color-surface:#FFFFFF;
+    /* back ground */
+    --color-black:#000000;
+    --color-gray:#373737;
+
+    /* fontes o font-size que dizer tamanho da fonte */
+    /* h1,h2,h3,h4,h5 */
+    --font-size-h1: 64px;
+    --font-size-h2: 48px;
+    --font-size-h3: 40px;
+    --font-size-h4: 35px;
+    --font-size-h5: 32px;
+    /* button */
+    --font-size-button:16px;
+    /* body */
+    --font-size-body:20px;
+    /* capition */
+    --font-size-capition: 14px;
+
+    /* import fonts */
+    --font-title: "Squada One", sans-serif;
+    --font-body: "Inter", sans-serif;
+    --font-accent: "Michroma", sans-serif;
+
+}
